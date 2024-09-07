@@ -1,0 +1,26 @@
+[
+    {
+      "title": "CraftCMS DDEV Vite",
+      "description": "Demo for CraftCMS, DDEV and Vite for rapid development.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/820px-Vitejs-logo.svg.png",
+      "gitpodUrl": "https://gitpod.io/#https://github.com/mandrasch/ddev-craftcms-vite/",
+      "codespacesUrl": "https://codespaces.new/mandrasch/ddev-craftcms-vite",
+      "githubRepo": "https://github.com/mandrasch/ddev-craftcms-vite"
+    },
+    {
+      "title": "Sprig Green Coding Jobs Demo",
+      "description": "A demo showcasing CraftCMS with Sprig filters and pagination. Auto-start for Gitpod and GitHub Codespaces not yet implemented.",
+      "image": "https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo/raw/main/screenshot.png",
+      "gitpodUrl": "https://gitpod.io/#https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo",
+      "codespacesUrl": "https://codespaces.new/mandrasch/craftcms-sprig-green-coding-jobs-demo",
+      "githubRepo": "https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo"
+    },
+    {
+      "title": "Craft Baukasten (WIP)",
+      "description": "Heavily opinionated starter kit for CraftCMS Projects by David Hellmann, Gitpod launch is work in progress.",
+      "image": "https://github.com/davidhellmann/craftcms-baukasten/raw/main/CraftCMS-Baukasten.png",
+      "gitpodUrl": "https://gitpod.io/#https://github.com/mandrasch/craftcms-baukasten-ddev",
+      "codespacesUrl": "",
+      "githubRepo": "https://github.com/mandrasch/craftcms-baukasten-ddev"
+    }
+  ]
