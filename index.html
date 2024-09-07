@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraftCMS Launchpad</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #ffffff;
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      position: relative;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 20px 20px;
+      overflow: hidden;
+    }
+
+    .hero h1 {
+      font-size: 3.5em;
+      margin: 0;
+      z-index: 1;
+      position: relative;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      z-index: 1;
+      position: relative;
+      font-weight: 300;
+    }
+
+    /* Container for Cards */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Card Styles */
+    .card {
+      background-color: #1f1f24;
+      color: #ccc;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /*.card:hover {
+      transform: translateY(-10px);
+    }*/
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      font-size: 1.1em;
+      margin: 25px 0 5px;
+      padding: 0 10px;
+      font-weight: normal;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      padding: 0 10px;
+      margin-bottom: 30px;
+    }
+
+    /* Button Styles */
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 0;
+      border: none;
+      cursor: pointer;
+      max-height: 90px;
+      margin: 0 auto;
+      text-align: center;
+      background: none;
+    }
+
+    .btn img {
+      height: auto;
+      width: auto;
+      border-radius: 8px;
+    }
+
+    .btn--codespaces{
+        max-width:80%;
+    }
+    .btn--codespaces img{
+        max-width:85%;
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 1200px) {
+      .container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 2.5em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>CraftCMS Launchpad</h1>
+    <p>Play with Interactive CraftCMS Demos in your browser, powered by DDEV.</p>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="CraftCMS DDEV Vite">
+      <h2>CraftCMS DDEV Vite</h2>
+      <p>Demo for CraftCMS, DDEV and Vite for rapid development.</p>
+      <div class="btn-container">
+        <a href="https://gitpod.io/#https://github.com/mandrasch/ddev-craftcms-vite/" class="btn btn--gitpod" target="_blank">
+          <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
+        </a>
+        <a href="https://codespaces.new/mandrasch/ddev-craftcms-vite" class="btn btn--codespaces" target="_blank">
+          <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="Sprig Green Coding Jobs Demo">
+      <h2>Sprig Green Coding Jobs Demo</h2>
+      <p>A demo showcasing CraftCMS with Sprig filters and pagination. Auto-start for Gitpod and GitHub Codespaces not yet implemented.</p>
+      <div class="btn-container">
+        <a href="https://gitpod.io/?autostart=true#DDEV_REPO=https%3A%2F%2Fgithub.com%2Fmandrasch%2Fcraftcms-sprig-green-coding-jobs-demo,DDEV_ARTIFACTS=https%3A%2F%2Fgithub.com%2Fddev%2Fd10simple-artifacts/https://github.com/ddev/ddev-gitpod-launcher/" class="btn btn--gitpod" target="_blank">
+          <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
+        </a>
+        <a href="https://codespaces.new/mandrasch/craftcms-sprig-green-coding-jobs-demo" class="btn btn--codespaces" target="_blank">
+          <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="Craft Baukasten (WIP)">
+      <h2>Craft Baukasten (WIP)</h2>
+      <p>Heavily opinionated starter kit for CraftCMS Projects by Davild Hellmann, work in progress.</p>
+      <div class="btn-container">
+        <a href="https://gitpod.io/#https://github.com/mandrasch/craftcms-baukasten-ddev" class="btn btn--gitpod" target="_blank">
+          <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
+        </a>
+        <!-- <a href="https://github.com/codespaces/new?repo=user/repo" class="btn btn--codespaces" target="_blank">
+          <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+        </a> -->
+      </div>
+    </div>
+
+    <!-- Placeholder for Future Project -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="Future Project">
+      <h2>Future Project</h2>
+      <p>A placeholder for a new CraftCMS demo project, coming soon.</p>
+       <div class="btn-container" style="height:80px;">
+        <!--<a href="https://gitpod.io/#https://github.com/user/repo" class="btn btn--gitpod" target="_blank">
+          <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
+        </a>
+        <a href="https://github.com/codespaces/new?repo=user/repo" class="btn btn--codespaces" target="_blank">
+          <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+        </a> -->
+      </div>
+    </div>
+
+
+  </section>
+
+  <section style="text-align: center; margin-top:50px;">
+    <p style="font-size: 0.9rem";>Demo, just for preview purposes. Please not that GitHub Codespaces can still be a bit buggy - use Gitpod for best results.</p>
+
+  </section>
+
+</body>
+</html>
