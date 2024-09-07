@@ -38,7 +38,7 @@ jobs:
           switches: -avzr --delete
           # TODO: add --delete flag once path is correct
           # build path:
-          path: /dist/
+          path: /build/
           # Something like '/home/sites/site100XXXX5/web/aktuelle-erderhitzung.de/'
           remote_path: ${{ secrets.SSH_PATH }}
           remote_host: ngcobalt384.manitu.net
