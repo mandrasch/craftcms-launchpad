@@ -38,6 +38,12 @@
 					{/if}
 				</div>
 
+				<div class="adminCredentials">
+					{#if project.adminCredentials}
+						{project.adminCredentials}
+					{/if}
+				</div>
+
 				<div class="repo">
 					<a href={project.githubRepo} target="_blank">
 						<svg fill="none" viewBox="0 0 32 33" width="16" height="16">
@@ -202,6 +208,11 @@
 		justify-content: center;
 		align-items: center;
 		gap: 5px;
+	}
+
+	.card .adminCredentials {
+		padding: 5px 10px 10px;
+		font-size: 0.8rem;
 	}
 
 	/* Button Styles */

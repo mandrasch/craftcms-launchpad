@@ -6,7 +6,8 @@
 		"image": "/images/europa-museum.jpg",
 		"gitpodUrl": "https://gitpod.io/new/#https://github.com/mandrasch/craftcms-europa-museum",
 		"codespacesUrl": "",
-		"githubRepo": "https://github.com/mandrasch/craftcms-europa-museum"
+		"githubRepo": "https://github.com/mandrasch/craftcms-europa-museum",
+		"adminCredentials": "Create user via 'ddev craft users/create --admin'"
 	},
 	{
 		"title": "Sprig Green Coding Jobs Demo",
@@ -15,7 +16,8 @@
 		"image": "https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo/raw/main/screenshot.png",
 		"gitpodUrl": "https://gitpod.io/#https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo",
 		"codespacesUrl": "https://codespaces.new/mandrasch/craftcms-sprig-green-coding-jobs-demo",
-		"githubRepo": "https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo"
+		"githubRepo": "https://github.com/mandrasch/craftcms-sprig-green-coding-jobs-demo",
+		"adminCredentials": "User / password: admin:greenweb"
 	},
 	{
 		"title": "Craft Baukasten",
