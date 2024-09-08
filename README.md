@@ -8,3 +8,4 @@ Status: Work in progress
 
 - [ ] Split source code into Components
 - [ ] Add DDEV support for this repository
+- [ ] Add password info for europa museum demo
