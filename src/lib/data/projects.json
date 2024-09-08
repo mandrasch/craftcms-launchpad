@@ -3,7 +3,7 @@
 		"title": "europa.museum",
 		"workInProgress": false,
 		"description": "A marketing website with repeatable Matrix fields, news, third-party map, and a contact form. Created by CraftCMS team.",
-		"image": "/images/europa-museum.avif",
+		"image": "/images/europa-museum.jpg",
 		"gitpodUrl": "https://gitpod.io/new/#https://github.com/mandrasch/craftcms-europa-museum",
 		"codespacesUrl": "",
 		"githubRepo": "https://github.com/mandrasch/craftcms-europa-museum"
