@@ -3,8 +3,10 @@
 	import projects from '$lib/data/projects.json';
 </script>
 
-<!-- TODO add seo via svelte:head -->
-<!-- TODO: split into components -->
+<svelte:head>
+	<title>CraftCMS Launchpad</title>
+	<meta name="description" content="Interactive CraftCMS demos in your browser, powered by DDEV." />
+</svelte:head>
 
 <section class="hero">
 	<h1>CraftCMS Launchpad</h1>
@@ -54,12 +56,13 @@
 
 <section class="footer" style="text-align: center; margin-top: 50px;">
 	<p>
-		Demo, just for preview purposes. Please note that GitHub Codespaces can be a bit buggy on
-		startup / launches; use Gitpod for best experience. Inspired by <a
-			href="https://astro.new/latest/">astro.new/latest</a
-		>.
+		Please note that GitHub Codespaces can be a bit buggy on startup / launches; use Gitpod for best
+		experience.
 	</p>
-	<p><a href="https://matthias-andrasch.eu/impressum-datenschutz/">Imprint & Privacy</a></p>
+	<p>
+		Inspired by <a href="https://astro.new/latest/">astro.new/latest</a>. |
+		<a href="https://matthias-andrasch.eu/impressum-datenschutz/">Imprint & Privacy</a>
+	</p>
 </section>
 
 <a
@@ -134,6 +137,7 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
+		row-gap: 40px;
 		padding: 40px;
 		max-width: 1200px;
 		margin: 0 auto;
@@ -299,7 +303,7 @@
 	}
 	.footer p {
 		font-size: 0.9rem;
-    margin-bottom:20px;
+		margin-bottom: 20px;
 	}
 
 	.github-corner:hover .octo-arm {
