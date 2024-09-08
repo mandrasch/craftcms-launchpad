@@ -26,7 +26,8 @@
 		"image": "https://github.com/davidhellmann/craftcms-baukasten/raw/main/CraftCMS-Baukasten.png",
 		"gitpodUrl": "",
 		"codespacesUrl": "",
-		"githubRepo": "https://github.com/mandrasch/craftcms-baukasten-ddev"
+		"githubRepo": "https://github.com/mandrasch/craftcms-baukasten-ddev",
+		"adminCredentials": "User / password: superuser:superuser"
 	},
 	{
 		"title": "CraftCMS DDEV Vite",
@@ -35,7 +36,8 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/820px-Vitejs-logo.svg.png",
 		"gitpodUrl": "https://gitpod.io/#https://github.com/mandrasch/ddev-craftcms-vite/",
 		"codespacesUrl": "https://codespaces.new/mandrasch/ddev-craftcms-vite",
-		"githubRepo": "https://github.com/mandrasch/ddev-craftcms-vite"
+		"githubRepo": "https://github.com/mandrasch/ddev-craftcms-vite",
+		"adminCredentials": "User / password: admin:newPassword"
 	},
 	{
 		"title": "Spoke & Chain",
@@ -44,6 +46,7 @@
 		"image": "/images/spoke-and-chain.avif",
 		"gitpodUrl": "",
 		"codespacesUrl": "",
-		"githubRepo": "https://github.com/craftcms/spoke-and-chain"
+		"githubRepo": "https://github.com/craftcms/spoke-and-chain",
+		"adminCredentials": "Create user via 'ddev craft users/create --admin'"
 	}
 ]
